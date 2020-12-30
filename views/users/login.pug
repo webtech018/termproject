@@ -1,0 +1,28 @@
+extends ../layout
+
+block content
+    h1 Login Form
+    form(action="/login",method="post")
+        .form-group
+            label(for="email") Email
+            input#contact(type="text", class="form-control", name="email" value="Mahnoor@gmail.com")
+        .form-group
+            label(for="password") Password
+            input#city(type="text", class="form-control", name="password" value="mahnoor123")
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+        input(type="submit", class="btn btn-info")
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+                       <footer class="footer">
+                       <p class="p-3 bg-light text-black text-center"> ABOUT | OUR STORES | CONTACT US | PRIVACY POLICY <br /> Copyright 2020 © Mega Arts Studio</p>
+                       </footer>

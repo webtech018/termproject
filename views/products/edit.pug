@@ -1,0 +1,13 @@
+extends ../layout
+
+block content
+    h1 Edit Your Feedback
+    form(action="/products/edit/"+product._id,method="post")
+        .form-group
+            label(for="name") Username
+            input#name(type="text", class="form-control", name="name",value=product.name)
+        .form-group
+            label(for="service") Feedback
+            input#contact(type="text", class="form-control", name="service",value=product.service)
+        input(type="submit", class="btn btn-info")
+        

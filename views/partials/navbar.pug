@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="/">
+  <div id="logo" class="navbar-brand" align="margin-left">
+    <a href="https://www.megaartsstudio.com/" title="Mega Arts Studio - Game Design and Development Studio" rel="home">
+    <img  width="200" length="150" src="https://www.megaartsstudio.com/wp-content/uploads/2018/04/mega_logo.png"  alt="Mega Arts Studio"  /></a>
+          </div></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/products">Feedback</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/aboutus">AboutUs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/contactus">ContactUs</a>
+      </li>
+      if !user
+        <li class="nav-item">
+          <a class="nav-link" href="/login">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/register">Register</a>
+        </li>
+      if user
+        <li class="nav-item">
+          <a class="nav-link" href="/logout">Logout</a>
+        </li>
+      
+    </ul>
+    
+  </div>
+</nav>
